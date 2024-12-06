@@ -103,11 +103,11 @@ const ImageMarked = styled('span')(({ theme }) => ({
 
 export default function ButtonBaseDemo() {
     // function handleClick(e) {
-
+//const items = [...products]
         // console.log(e.target)
-        // console.log(`button clicked`)
+         console.log(`button clicked`)
         // if(images.id==4){
-        //     const items = [...products]
+        //     
         //         const electronicItems=items.filter((item)=>item.category=='electronics')
         //     return(
         //         <ImageButton items={electronicItems} />
