@@ -102,7 +102,7 @@ const ImageMarked = styled('span')(({ theme }) => ({
 
 
 export default function ButtonBaseDemo() {
-    // function handleClick(e) {
+    function handleClick(e) {
 //const items = [...products]
         // console.log(e.target)
          console.log(`button clicked`)
@@ -136,7 +136,7 @@ export default function ButtonBaseDemo() {
                     <ImageBackdrop className="MuiImageBackdrop-root" />
                     <Image>
                         <Typography
-                            // onClick={handleClick}
+                            onClick={handleClick}
                             component="span"
                             variant="subtitle1"
                             color="inherit"
